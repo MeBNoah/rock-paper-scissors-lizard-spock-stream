@@ -1,6 +1,6 @@
 {
   "name": "rock-paper-scissors-lizard-spock-stream",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Streaming rock, paper, scissors, lizard, spock game",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "author": "Mathias Buus (@mafintosh)",
   "contributors": [
     "Thomas Watson Steen <w@tson.dk> https://twitter.com/wa7son",
-    "Noah Ispas <noahispas@gmail.com> https://twitter.com/MeBNoah" ,
+    "Noah Ispas <noahispas@gmail.com> https://twitter.com/MeBNoah",
     "Jens Meyer <jens.meyer@softgarden.de>"
   ],
   "license": "MIT",
