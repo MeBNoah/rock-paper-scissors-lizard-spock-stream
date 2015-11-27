@@ -1,39 +1,36 @@
-# rock-paper-scissors-stream
+# rock-paper-scissors-lizard-spock-stream
 
-Streaming rock, paper scissors game
+Streaming rock, paper, scissors, lizard, spock game extended from
 
 ```
-npm install -g rock-paper-scissors-stream
+npm install -g rock-paper-scissors-lizard-spock-stream
 ```
-
-[![build status](http://img.shields.io/travis/mafintosh/rock-paper-scissors-stream.svg?style=flat&branch=master)](http://travis-ci.org/mafintosh/rock-paper-scissors-stream)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Usage
 
-rock-paper-scissors-stream allows you to play rock, paper, scissors with a friend over any transport.
+rock-paper-scissors-lizard-spock-stream allows you to play rock, paper, scissors, lizard, spock with a friend over any transport.
 
 Using [dupsh](https://github.com/substack/dupsh) and [airpaste](https://github.com/mafintosh/airpaste) this looks like
 
 ``` sh
-machine-1> dupsh 'rock-paper-scissors-stream rock' airpaste
+machine-1> dupsh 'rock-paper-scissors-lizard-spock-stream rock' airpaste
 ```
 
 and on another machine
 
 ``` sh
-machine-2> dupsh 'rock-paper-scissors-stream scissors' airpaste
+machine-2> dupsh 'rock-paper-scissors-lizard-spock-stream scissors' airpaste
 ```
 
 This produces the following output
 
 ``` sh
-machine-1> dupsh 'rock-paper-scissors-stream rock' airpaste
+machine-1> dupsh 'rock-paper-scissors-lizard-spock-stream rock' airpaste
 You won! rock beats scissors
 ```
 
 ``` sh
-machine-2> dupsh 'rock-paper-scissors-stream scissors' airpaste
+machine-2> dupsh 'rock-paper-scissors-lizard-spock-stream scissors' airpaste
 You lost! rock beats scissors
 ```
 
@@ -42,7 +39,7 @@ You lost! rock beats scissors
 You can also use this as a module
 
 ``` js
-var rps = require('rock-paper-scissors-stream')
+var rps = require('rock-paper-scissors-lizard-spock-stream')
 
 var stream = rps('rock') // pass in your choice
 

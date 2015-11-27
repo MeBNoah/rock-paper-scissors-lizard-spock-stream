@@ -1,6 +1,6 @@
 {
   "name": "rock-paper-scissors-lizard-spock-stream",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Streaming rock, paper, scissors, lizard, spock game",
   "main": "index.js",
   "scripts": {
