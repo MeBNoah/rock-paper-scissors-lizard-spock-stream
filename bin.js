@@ -4,8 +4,8 @@ var rps = require('./')
 
 var choice = process.argv[2]
 
-if (!/^(rock|paper|scissors)$/i.test(choice)) {
-  console.error('Usage: rock-paper-scissors [rock|paper|scissors]')
+if (!/^(rock|paper|scissors|lizard|spock)$/i.test(choice)) {
+  console.error('Usage: rock-paper-scissors [rock|paper|scissors|lizard|spock]')
   process.exit(1)
 }
 

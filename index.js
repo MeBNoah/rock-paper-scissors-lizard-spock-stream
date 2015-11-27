@@ -2,7 +2,7 @@ var crypto = require('crypto')
 var ndjson = require('ndjson')
 var duplexify = require('duplexify')
 
-var weapons = ['rock', 'paper', 'scissors']
+var weapons = ['rock', 'paper', 'scissors', 'lizard', 'spock']
 
 module.exports = function (choice) {
   choice = choice.toLowerCase()
@@ -29,9 +29,11 @@ module.exports = function (choice) {
       if (data.choice === choice) return stream.emit('tie', choice, data.choice)
 
       switch (choice) {
-        case 'rock': return won(data.choice === 'scissors')
-        case 'paper': return won(data.choice === 'rock')
-        case 'scissors': return won(data.choice === 'paper')
+        case 'rock': return won(data.choice === 'scissors' || data.choice === 'lizard')
+        case 'paper': return won(data.choice === 'rock' || data.choice === 'spock')
+        case 'scissors': return won(data.choice === 'paper' || data.choice === 'lizard')
+        case 'lizard': return won(data.choice === 'paper' || data.choice === 'spock')
+        case 'spock' : return won(data.choice === 'rock' || data.choice === 'scissors')
       }
 
       stream.emit('error', new Error('Unexpected error (' + data.choice + ' vs ' + choice + ')'))

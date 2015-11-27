@@ -1,7 +1,7 @@
 {
-  "name": "rock-paper-scissors-stream",
-  "version": "1.0.5",
-  "description": "Streaming rock, paper scissors game",
+  "name": "rock-paper-scissors-lizard-spock-stream",
+  "version": "1.0.6",
+  "description": "Streaming rock, paper, scissors, lizard, spock game",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js"
@@ -15,23 +15,21 @@
     "tape": "^4.0.0"
   },
   "bin": {
-    "rock-paper-scissors-stream": "bin.js"
+    "rock-paper-scissors-lizard-spock-stream": "bin.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/rock-paper-scissors-stream.git"
+    "url": "https://github.com/MeBNoah/rock-paper-scissors-lizard-spock-stream/issues"
   },
   "author": "Mathias Buus (@mafintosh)",
   "contributors": [
-    "Thomas Watson Steen <w@tson.dk> https://twitter.com/wa7son"
+    "Thomas Watson Steen <w@tson.dk> https://twitter.com/wa7son",
+    "Noah Ispas <noahispas@gmail.com> https://twitter.com/MeBNoah" ,
+    "Jens Meyer <jens.meyer@softgarden.de>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/rock-paper-scissors-stream/issues"
+    "url": "https://github.com/MeBNoah/rock-paper-scissors-lizard-spock-stream/issues"
   },
-  "homepage": "https://github.com/mafintosh/rock-paper-scissors-stream",
-  "coordinates": [
-    18.4786325,
-    -69.95488759999999
-  ]
+  "homepage": "https://github.com/MeBNoah/rock-paper-scissors-lizard-spock-stream"
 }
